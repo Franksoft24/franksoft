@@ -1,0 +1,1 @@
+function headerTitle(text){document.getElementById('title').innerHTML=text;}function redirectHome(){window.location="Views/MAIN/";}
