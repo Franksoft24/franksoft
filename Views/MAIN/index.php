@@ -1,8 +1,5 @@
 <?php include_once('../Header/index.php');?>
 	
-	<?php
-		$name = 'Frankmer';
-	?>
 	<!--div class='text-contener'>Welcome</div-->
 	<div class='img-center-round blue'><img src="../../resource/img/logo.png" width="100%" alt="logo.png"></div>
 	<div class='text-contener'> Hi, my name is frankmer<br> software engineer </div>

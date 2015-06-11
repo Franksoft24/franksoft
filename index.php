@@ -1,3 +1,3 @@
-<script type="text/javascript">
-	window.location = "Views/MAIN";
-</script>
+<?php
+	header("location: Views/MAIN/")
+?>

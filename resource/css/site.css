@@ -38,11 +38,12 @@ section{
 }
 .blue{
 	background-color: #3498db;
-	box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.35), -1px -1px 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.35);
 	transition:0.8s;
 }
 .blue:hover{
 	box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.35), -1px -1px 1px 1px rgba(0,0,0,0.35);
+	border-radius: 0%;
 	transition:0.8s;
 }
 footer
@@ -66,9 +67,24 @@ footer
 }
 .plus-material-design{
 	position: fixed;
-	right: -12%;
-	bottom: -15%;
-	width: 35%;
+	right: 2%;
+	bottom: 2%;
+	font-size: 48px;
+	font-weight: bold;
+	/*width: 3%;
+	height: 5%;*/
+	text-align: center;
+	padding:1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.35);
+	background-color: #22A7F0;/*#3498db;*/
+	color: #fff;
+	border-radius: 100%;
+}
+.plus-material-design:hover{
+	box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.45);
+	cursor: pointer;
 }
 .nav-button-next{
 	position: fixed;
@@ -81,4 +97,50 @@ footer
 	left: -2%;
 	width: 10%;
 	top: 38%;
+}
+.SendMessagePop{
+	background-color: #fff;
+	position: absolute;
+	bottom: 7%;
+	right: 5%;
+	padding: 2%;
+	font-size: xx-large;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.35), -1px -1px 5px 1px rgba(0,0,0,0.35);
+	border-radius: 1%;
+	display: none;
+}
+.SendMessagePop input{
+	width: 90%;
+	padding: 5%;
+	color:#7f8c8d;
+	text-decoration: underline;
+	border: none;
+	background-color:#E4F1FE;
+	margin: 0px;
+}
+.SendMessagePop textarea{
+	width: 250px;
+	height: 128px;
+	padding: 5%;
+	resize: none;
+	border:none;
+	margin: 0px;
+	background-color: #E4F1FE;
+	color:#7f8c8d;
+}
+.SendMessagePop table tr td .blue-botton{
+	text-decoration: none;
+	width: 100%;
+	background-color: #3498db;
+	color: #fff;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.35);
+	text-transform: uppercase;
+	font-size: large;
+}
+.SendMessagePop table tr td .blue-botton:active{
+	box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.45);
+}
+.close-pop{
+	cursor: pointer;
+	color: #c0392b;
 }

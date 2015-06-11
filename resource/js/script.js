@@ -1,1 +1,1 @@
-function headerTitle(text){document.getElementById('title').innerHTML=text;}function redirectHome(){window.location="Views/MAIN/";}
+function headerTitle(text){document.getElementById('title').innerHTML=text;}function SendMessagePop(){var div = document.getElementById('SendMessagePop').style;if (div.display == "none"){div.display = "block";}else{div.display = "none";}}
