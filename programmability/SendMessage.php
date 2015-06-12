@@ -1,7 +1,7 @@
 <?php
 
 	$location = $_POST['location'];
-	$to = "frankmer@outlook.com";
+	$to = "insert-mail-here";
 	$name= $_POST['name'];
 	$mail = $_POST['mail'];
 	$subject = $_POST['subject'];
