@@ -43,7 +43,7 @@ section{
 }
 .blue:hover{
 	box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.35), -1px -1px 1px 1px rgba(0,0,0,0.35);
-	border-radius: 0%;
+	border-radius: 5%;
 	transition:0.8s;
 }
 footer
@@ -90,13 +90,25 @@ footer
 .nav-button-next{
 	position: fixed;
 	right: -2%;
-	width: 10%;
+	width: 7%;
 	top: 38%;
 }
 .nav-button-back{
 	position: fixed;
 	left: -2%;
-	width: 10%;
+	width: 7%;
+	top: 38%;
+}
+.nav-button-next:hover{
+	position: fixed;
+	right: -2%;
+	width: 8%;
+	top: 38%;
+}
+.nav-button-back:hover{
+	position: fixed;
+	left: -2%;
+	width: 8%;
 	top: 38%;
 }
 .SendMessagePop{
@@ -111,26 +123,29 @@ footer
 	display: none;
 }
 .SendMessagePop input{
-	width: 90%;
-	padding: 5%;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	color:#7f8c8d;
 	text-decoration: underline;
 	border: none;
 	background-color:#fff;
 	margin: 0px;
-	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
+	text-align: center;
 }
 .SendMessagePop textarea{
 	width: 250px;
 	height: 128px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	resize: none;
 	border:none;
 	margin: 0px;
 	background-color: #fff;
 	color:#7f8c8d;
 	overflow: hidden;
-	padding: 5%;
-	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
 }
 .SendMessagePop table tr td .blue-botton{
 	text-decoration: none;

@@ -4,5 +4,6 @@
 	<div class="nav-button-back"><a href="../MAIN/"><img src="../../resource/img/back.png" alt="back.png" width="100%"></a></div>
 	<script type="text/javascript">
 		headerTitle("About");
+		var where = "about";
 	</script>
 <?php include_once('../footer/index.php');?>
