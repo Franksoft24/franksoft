@@ -46,6 +46,29 @@ section{
 	border-radius: 5%;
 	transition:0.8s;
 }
+.content{
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 3%;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.53);
+}
+.content h3{
+	padding:2%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	margin: 0px;
+	text-transform: uppercase;
+	/*background-color: #3498db;*/
+	color: #fff; 
+	font-size: x-large;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+}
+.content p{
+	padding: 2%;
+	margin: 0px;
+	padding-top: 0%;
+}
 footer
 {
 	margin: 0px;
@@ -82,33 +105,26 @@ footer
 	color: #fff;
 	border-radius: 100%;
 	overflow: hidden;
+	transition:0.8s;
 }
 .plus-material-design:hover{
 	box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.45);
 	cursor: pointer;
 }
+.plus-material-design:active{
+	border-radius: 35%;
+	transition:0.1s;
+}
 .nav-button-next{
 	position: fixed;
 	right: -2%;
-	width: 7%;
+	width: 10%;
 	top: 38%;
 }
 .nav-button-back{
 	position: fixed;
 	left: -2%;
-	width: 7%;
-	top: 38%;
-}
-.nav-button-next:hover{
-	position: fixed;
-	right: -2%;
-	width: 8%;
-	top: 38%;
-}
-.nav-button-back:hover{
-	position: fixed;
-	left: -2%;
-	width: 8%;
+	width: 10%;
 	top: 38%;
 }
 .SendMessagePop{
@@ -165,4 +181,86 @@ footer
 .close-pop{
 	cursor: pointer;
 	color: #c0392b;
+}
+@media (max-width: 600px) {
+	.content{
+		margin-left:5%;
+		margin-right: 5%;
+		margin-top: 3%;
+		background-color: #fff;
+		box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.53);
+	}
+	.content h3{
+		padding:10%;
+		/*padding-top: 5%;
+		padding-bottom: 3%;*/
+		margin: 0px;
+		text-transform: uppercase;
+		background-color: #3498db;
+		color: #fff; 
+		font-size: medium;
+		box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+	}
+	.img-center-round{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 15%;
+		overflow: hidden;
+		border-radius: 100%;
+	}
+	.plus-material-design{
+		width: 55px;
+	}
+	.nav-button-next{
+		width: 30%;
+		opacity: 0.2;
+		right: -9%;
+	}
+	.nav-button-back{
+		width: 30%;
+		opacity: 0.2;
+		left: -9%
+	}
+	.nav-button-next:active{
+		opacity: 0.4;
+	}
+	.nav-button-back:active{
+		opacity: 0.4;
+	}
+	.SendMessagePop{
+		overflow: hidden;
+		position: absolute;
+		top: 2%;
+		height: 467px;
+	}
+}
+.flat-red h3{
+	background-color: #d14233;
+}
+.flat-blue h3{
+	background-color: #3498db;
+}
+.flat-green h3{
+	background-color: #27ae60;
+}
+.flat-dark-blue h3{
+	background-color: #2c3e50;
+}
+.flat-orange h3{
+	background-color: #f39c12;
+}
+.flat-red{
+	color: #d14233;
+}
+.flat-blue{
+	color: #3498db;
+}
+.flat-green{
+	color: #27ae60;
+}
+.flat-dark-blue{ 
+	color: #2c3e50;
+}
+.flat-orange{
+	color: #f39c12;
 }

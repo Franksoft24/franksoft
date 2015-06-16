@@ -1,3 +1,3 @@
 <?php
-	header("location: Views/MAIN/")
+	header("location: Views/MAIN")
 ?>

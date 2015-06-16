@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang="ES-es">
+<html lang="en-US">
 <head>
 	<meta chartset="utf-8"/>
 	<meta name="theme-color" content="#3498db"/>
