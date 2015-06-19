@@ -1,0 +1,23 @@
+body, .alert, .successful, .error
+{
+	padding:0px;
+	margin: 0px;
+}
+.alert
+{
+	position: fixed;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+.successful
+{
+	background-color: #27ae60;
+	font-size: xx-large;
+}
+.error
+{
+	background-color: #c0392b;
+	font-size: xx-large;
+}

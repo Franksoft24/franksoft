@@ -10,7 +10,7 @@ body{
 	text-align: center;
 	width: 100%;
 	text-transform: uppercase;
-	text-shadow:1px 1px 1px rgba(0,0,0,0.35);/*, -1px -1px 1px rgba(0,0,0,0.35);*/
+	text-shadow:1px 1px 1px rgba(0,0,0,0.35);
 	margin-top: 1%;
 }
 header{
@@ -52,6 +52,7 @@ section{
 	margin-top: 3%;
 	background-color: #fff;
 	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.53);
+	overflow: hidden;
 }
 .content h3{
 	padding:2%;
@@ -59,7 +60,6 @@ section{
 	padding-bottom: 3%;
 	margin: 0px;
 	text-transform: uppercase;
-	/*background-color: #3498db;*/
 	color: #fff; 
 	font-size: x-large;
 	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
@@ -77,6 +77,7 @@ footer
 	text-align: center;
 	font-size: small;
 	margin-top: 5%;
+	margin-bottom: 1%;
 	color: #000;
 }
 .link
@@ -93,15 +94,12 @@ footer
 	right: 2%;
 	bottom: 2%;
 	font-size: 48px;
-	/*font-weight: bold;*/
-	width: 49px;/*5%;*/
+	width: 49px;
 	height: 56px;
 	text-align: center;
 	padding:1%;
-	/*padding-right: 2%;
-	padding-left: 2%;*/
 	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.35);
-	background-color: #22A7F0;/*#3498db;*/
+	background-color: #22A7F0;
 	color: #fff;
 	border-radius: 100%;
 	overflow: hidden;
@@ -182,7 +180,23 @@ footer
 	cursor: pointer;
 	color: #c0392b;
 }
-@media (max-width: 600px) {
+.folder{
+	padding:2%;
+	width: 46%;
+	float: left;
+}
+.folder h2{
+	padding: 0px;
+	margin: 0px;
+}
+.folder p{
+	padding: 0px;
+	margin: 0px;
+}
+.folder:hover{
+	background-color: rgba(0,0,0,0.10);
+}
+@media (max-width: 700px) {
 	.content{
 		margin-left:5%;
 		margin-right: 5%;
@@ -192,8 +206,6 @@ footer
 	}
 	.content h3{
 		padding:10%;
-		/*padding-top: 5%;
-		padding-bottom: 3%;*/
 		margin: 0px;
 		text-transform: uppercase;
 		background-color: #3498db;
@@ -231,7 +243,12 @@ footer
 		overflow: hidden;
 		position: absolute;
 		top: 2%;
-		height: 467px;
+		height: 452px;
+		right: 10%;
+	}
+	.folder{
+		float: none;
+		width: 96%;
 	}
 }
 .flat-red h3{
@@ -249,6 +266,9 @@ footer
 .flat-orange h3{
 	background-color: #f39c12;
 }
+.flat-purple h3{
+	background-color: #8e44ad;
+}
 .flat-red{
 	color: #d14233;
 }
@@ -263,4 +283,7 @@ footer
 }
 .flat-orange{
 	color: #f39c12;
+}
+.flat-purple{
+	color: #8e44ad;
 }

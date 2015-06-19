@@ -9,9 +9,9 @@
 	$message = "from: $name \n Content: \n $content \nCorreo: $mail";
 	if(!empty($name)&&!empty($mail)&&!empty($subject)&&!empty($content)){
 		mail($to, $subject, $message);
-		header("location: http://localhost:82/franksoft/Views/".$location."?message=wiii");
+		header("location: http://localhost:82/franksoft/Views/features/message.php?location=".$location."&message=successful");
 	}else{
-		header("location: http://localhost:82/franksoft/Views/".$location."?message=error");
+		header("location: http://localhost:82/franksoft/Views/features/message.php?location=".$location."&message=fail");
 	}
 
 ?>

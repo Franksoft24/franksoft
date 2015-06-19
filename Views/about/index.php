@@ -8,7 +8,7 @@
 			<ul>
 				<li><h4>Name:</h4>	Frankmer</li>
 				<li><h4>Nationality:</h4>	Dominican </li>
-				<li><h4>Language:</h4> Spanish (native), english (2nd)</li>
+				<li><h4>Language:</h4> Spanish (native), English (2nd)</li>
 			</ul>
 		</p>
 	</div>
@@ -26,8 +26,10 @@
 		<p>
 			<ul>
 				<li>Web developer</li>
+				<li>Web designer</li>
 				<li>System Design</li>
 				<li>Requirement analyst</li>
+				<li>Data Base</li>
 			</ul>
 		</p>
 	</div>
@@ -50,7 +52,8 @@
 		</p>
 	</div>
 	<script type="text/javascript">
-		headerTitle("About");
 		var where = "about";
+		headerTitle(where);
+		//loadaanimation("content");//this function load the page with a transition animation 
 	</script>
 <?php include_once('../footer/index.php');?>
