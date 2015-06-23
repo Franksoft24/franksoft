@@ -1,6 +1,6 @@
 	</section>
 	<footer>developed by <a href="#" class="link">franksoft</a></footer>
-	<a href="javascript:SendMessagePop()"><div class="plus-material-design">
+	<a href="javascript:SendMessagePop()"><div class="plus-material-design" id="plus-material-design">
 		+
 	</div></a>
 	<div id="SendMessagePop" class="SendMessagePop">
