@@ -183,7 +183,7 @@ footer
 .SendMessage textarea{
 	width: 100%;
 }
-.SendMessagePop table tr td .blue-botton, .SendMessage table tr td .blue-botton{
+.SendMessagePop table tr td .blue-button, .SendMessage table tr td .blue-button{
 	text-decoration: none;
 	width: 100%;
 	background-color: #3498db;
@@ -195,7 +195,7 @@ footer
 .SendMessagePop table tr td{
 	margin: 0px;
 }
-.SendMessagePop table tr td .blue-botton:active{
+.SendMessagePop table tr td .blue-button:active{
 	box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.45);
 }
 .close-pop{

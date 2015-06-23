@@ -26,7 +26,7 @@
 					<td><input type="text" id="location" name="location"></td>
 				</tr>
 				<tr>
-					<td><input type="submit" value="Send" class="blue-botton"></td>
+					<td><input type="submit" value="Send" class="blue-button"></td>
 				</tr>
 			</table>
 		</form>
